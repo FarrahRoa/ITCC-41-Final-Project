@@ -1,8 +1,8 @@
 package com.example.itcc4finalproject.Domain
 
-data class CategoryModel(
+data class UserModel(
     val id: String = "",
     val name: String = "",
-    val description: String = "",
-    val imageUrl: String = ""
+    val email: String = "",
+    val role: String = "patient"
 )
